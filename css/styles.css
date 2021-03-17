@@ -2,3 +2,8 @@ body {
 
     background-image: linear-gradient(90deg, rgba(64,187,240,1) 0%, rgba(0,144,223,1) 100%);
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
