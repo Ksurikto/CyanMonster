@@ -1,0 +1,10 @@
+#logoanimation{
+    animation-name: logoanimation;
+    animation-duration: 1s;
+}
+
+@keyframes logoanimation {
+    0% {
+        transform: scale(.3);
+    }
+}
