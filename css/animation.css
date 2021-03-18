@@ -12,6 +12,20 @@
     }
 }
 
+#logoanimation2{
+    animation-name: logoanimation;
+    animation-duration: 1s;
+    animation-delay: 0s
+}
+
+@keyframes logoanimation {
+    0% {
+        transform: scale(.3);
+        animation-timing-function: ease-in-out;
+        opacity: 0.0
+    }
+}
+
 #FotosTrabajo {
     animation-name: fotoanimation;
     animation-duration: 2s;
