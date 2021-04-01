@@ -1,0 +1,46 @@
+#logoanimation{
+    animation-name: logoanimation;
+    animation-duration: 1s;
+    animation-delay: 1s
+}
+
+@keyframes logoanimation {
+    0% {
+        transform: scale(.3);
+        animation-timing-function: ease-in-out;
+        opacity: 0.0
+    }
+}
+
+#logoanimation2{
+    animation-name: logoanimation;
+    animation-duration: 1s;
+    animation-delay: 0s
+}
+
+@keyframes logoanimation {
+    0% {
+        transform: scale(.3);
+        animation-timing-function: ease-in-out;
+        opacity: 0.0
+    }
+}
+
+#FotosTrabajo {
+    animation-name: fotoanimation;
+    animation-duration: 2s;
+    animation-delay: 1s
+}
+
+@keyframes fotoanimation {
+    0% {
+        animation-timing-function: ease-in-out;
+        opacity: 0.0
+    }
+}
+
+#FotosTrabajo:hover {
+   
+    transform: scale(1.05);
+
+}
